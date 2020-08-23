@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["Kapil Kaisare <kapil@kaisare.software>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = {version = "^0.61.0", extras = ["all"]}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.6.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
