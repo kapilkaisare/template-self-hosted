@@ -7,6 +7,7 @@ authors = ["Kapil Kaisare <kapil@kaisare.software>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 fastapi = {version = "^0.61.0", extras = ["all"]}
+python-multipart = "^0.0.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
